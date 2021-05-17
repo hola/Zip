@@ -11,15 +11,15 @@
 		0770AECF224BDC120040B364 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip.h */; };
 		0770AED0224BDC130040B364 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip.h */; };
 		07B2360221C2C697001E8634 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FD21C2C674001E8634 /* crypt.h */; };
-		07B2360321C2C697001E8634 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* zip.h */; };
+		07B2360321C2C697001E8634 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* mz_zip.h */; };
 		07B2360421C2C697001E8634 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FF21C2C674001E8634 /* unzip.h */; };
 		07B2360521C2C697001E8634 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B2360121C2C674001E8634 /* ioapi.h */; };
 		07B2360621C2C697001E8634 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FD21C2C674001E8634 /* crypt.h */; };
-		07B2360721C2C697001E8634 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* zip.h */; };
+		07B2360721C2C697001E8634 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* mz_zip.h */; };
 		07B2360821C2C697001E8634 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FF21C2C674001E8634 /* unzip.h */; };
 		07B2360921C2C697001E8634 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B2360121C2C674001E8634 /* ioapi.h */; };
 		07B2360A21C2C698001E8634 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FD21C2C674001E8634 /* crypt.h */; };
-		07B2360B21C2C698001E8634 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* zip.h */; };
+		07B2360B21C2C698001E8634 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* mz_zip.h */; };
 		07B2360C21C2C698001E8634 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FF21C2C674001E8634 /* unzip.h */; };
 		07B2360D21C2C698001E8634 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B2360121C2C674001E8634 /* ioapi.h */; };
 		303B4F6E1E4CBE5000DC1633 /* permissions.zip in Resources */ = {isa = PBXBuildFile; fileRef = 303B4F6D1E4CBE5000DC1633 /* permissions.zip */; };
@@ -77,7 +77,7 @@
 		0770AECD224BDC030040B364 /* Minizip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Minizip.h; sourceTree = "<group>"; };
 		0770AED3224BDF080040B364 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		07B235FD21C2C674001E8634 /* crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		07B235FE21C2C674001E8634 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		07B235FE21C2C674001E8634 /* mz_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_zip.h; sourceTree = "<group>"; };
 		07B235FF21C2C674001E8634 /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
 		07B2360121C2C674001E8634 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
 		303B4F6D1E4CBE5000DC1633 /* permissions.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = permissions.zip; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			children = (
 				0770AECD224BDC030040B364 /* Minizip.h */,
 				07B235FD21C2C674001E8634 /* crypt.h */,
-				07B235FE21C2C674001E8634 /* zip.h */,
+				07B235FE21C2C674001E8634 /* mz_zip.h */,
 				07B235FF21C2C674001E8634 /* unzip.h */,
 				07B2360121C2C674001E8634 /* ioapi.h */,
 			);
@@ -245,7 +245,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B2360B21C2C698001E8634 /* zip.h in Headers */,
+				07B2360B21C2C698001E8634 /* mz_zip.h in Headers */,
 				342545AE1CE525B200336074 /* Zip.h in Headers */,
 				07B2360A21C2C698001E8634 /* crypt.h in Headers */,
 				0770AED0224BDC130040B364 /* Minizip.h in Headers */,
@@ -258,7 +258,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B2360721C2C697001E8634 /* zip.h in Headers */,
+				07B2360721C2C697001E8634 /* mz_zip.h in Headers */,
 				343F51361C8DB0720028C434 /* Zip.h in Headers */,
 				07B2360621C2C697001E8634 /* crypt.h in Headers */,
 				0770AECF224BDC120040B364 /* Minizip.h in Headers */,
@@ -276,7 +276,7 @@
 				07B2360521C2C697001E8634 /* ioapi.h in Headers */,
 				0770AECE224BDC030040B364 /* Minizip.h in Headers */,
 				07B2360421C2C697001E8634 /* unzip.h in Headers */,
-				07B2360321C2C697001E8634 /* zip.h in Headers */,
+				07B2360321C2C697001E8634 /* mz_zip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
